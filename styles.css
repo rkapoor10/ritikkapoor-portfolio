@@ -2,8 +2,8 @@
 
 
 :root {
-    --primary-color: #EAB308;
-    --dark-blue: #2f2e41;
+    --primary-color: black;
+    --secondary-color: #fce028;
     --off-white: #E2E8F0;
 }
 
@@ -50,7 +50,7 @@ hr {
 
 
 .link-secondary {
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--secondary-color);
     border-radius: 0.5rem;
     color: var(--primary-color);
 }
@@ -114,7 +114,7 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-blue);
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ section{
 /* footer */
 
 .footer{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
