@@ -3,8 +3,8 @@
 
 :root {
     --primary-color: black;
-    --secondary-color: #fce028;
-    --off-white: #E2E8F0;
+    --secondary-color: #1D4ED8;
+    --off-white: #F5F5F4;
 }
 
 body {
@@ -43,7 +43,7 @@ hr {
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: 0.5rem;
     color: white;
 }
@@ -52,7 +52,7 @@ hr {
 .link-secondary {
     border: 2px solid var(--secondary-color);
     border-radius: 0.5rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 /*lists*/
@@ -66,33 +66,52 @@ hr {
 }
 
 /*NAVIGATION*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  } 
+
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color:white;
     border-bottom-left-radius: 1rem;
     padding: 1rem;
-    color: white;
+    color: var(--primary-color);
+  
+    
+    
+    
+    
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+
+ 
+    
 
 }
 
 .navigation .nav-pills {
     text-align: right;
+    font-size: 1rem;   
+    padding-right: 5rem; 
 }
 
 
 .navigation .link {
-    color: white;
+    /* color: white; */
+    color: var(--secondary-color);
+
 
 }
 
 .navigation .link-active {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    
 }
 
 
@@ -101,7 +120,7 @@ hr {
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 8rem;
 }
 
 .hero .hero-img {
@@ -113,9 +132,10 @@ hr {
 }
 
 .hero .hero-heading {
-    padding-top: 1rem;
+    padding-top: 2rem;
     color: var(--secondary-color);
     text-align: center;
+    
 }
 
 
@@ -137,11 +157,13 @@ section{
 /* footer */
 
 .footer{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
+    border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    margin-top: 5rem;
 }
 .footer .footer-header{
     font-weight: bold;
@@ -154,5 +176,13 @@ section{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer .link-neog{
+
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+
+    border-radius: 2rem;
+    color: white;
 }
 
