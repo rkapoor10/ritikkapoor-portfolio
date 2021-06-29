@@ -141,6 +141,17 @@ hr {
 
 /* section */
 /* Why do we put section under container */
+.item{
+    border: solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 1rem; 
+}
+
+.space{
+   padding-bottom: 1rem;
+   /* text-align: center; */
+}
 section{
     padding: 2rem;
 }
