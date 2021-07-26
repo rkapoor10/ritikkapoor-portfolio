@@ -76,25 +76,27 @@ hr {
 .navigation {
     background-color:white;
     border-bottom-left-radius: 1rem;
-    padding: 1rem;
+    padding-top: 1rem;
+    /* padding: 1rem; */
     color: var(--primary-color);
-  
-    
-    
-    
-    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 8px lightgrey
 }
-
+.navigation .nav-grid{
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    max-width: 1024px;
+}
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.5rem;
 
- 
-    
-
 }
 
 .navigation .nav-pills {
+   
     text-align: right;
     font-size: 1rem;   
     padding-right: 5rem; 
@@ -103,6 +105,7 @@ hr {
 
 .navigation .link {
     /* color: white; */
+ 
     color: var(--secondary-color);
 
 
@@ -128,6 +131,7 @@ hr {
     margin: auto;
     /* display block what does it do */
     display: block;
+    
 
 }
 
@@ -141,6 +145,17 @@ hr {
 
 /* section */
 /* Why do we put section under container */
+.item{
+    border: solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 1rem; 
+}
+
+.space{
+   padding-bottom: 1rem;
+   /* text-align: center; */
+}
 section{
     padding: 2rem;
 }
