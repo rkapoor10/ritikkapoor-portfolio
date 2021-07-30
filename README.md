@@ -1,11 +1,12 @@
 # My Portfolio 
 This is my portfolio in the making. Currently learning git, git hub, vs code and more.  
 At present, I know -  
-1.React
-1.NodeJS  
-2.JavaScript  
-3.Repl.it  
-4.CHALK  
-5.HTML  CSS 
-6.Markdown
+1.React JS  
+2.Vanilla JS  
+3.NodeJS  
+4.JavaScript  
+5.Repl.it  
+6.CHALK  
+7.HTML  CSS 
+8.Markdown
 
