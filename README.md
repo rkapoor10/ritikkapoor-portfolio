@@ -1,5 +1,5 @@
 # My Portfolio 
-This is my portfolio in the making. Currently building projects ans writing blogs.  
+This is my portfolio in the making. Currently building projects and writing blogs.  
 At present, I know -  
 1.React JS  
 2.Vanilla JS  
