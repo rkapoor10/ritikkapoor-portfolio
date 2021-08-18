@@ -48,12 +48,23 @@ hr {
     color: white;
 }
 
+.link-primary:hover{
+    background-color:darkblue;
+}
+
 
 .link-secondary {
     border: 2px solid var(--secondary-color);
     border-radius: 0.5rem;
     color: var(--secondary-color);
 }
+
+.link-secondary:hover{
+    border: 2px solid darkblue;
+    color: darkblue;
+    
+}
+
 
 /*lists*/
 .list-non-bullet {
@@ -113,6 +124,9 @@ hr {
     font-size: 1.3rem;
     
 }
+
+
+
 
 
 
